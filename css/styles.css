@@ -808,6 +808,9 @@ ul {
   background-color: #404bbf;
   border: none;
 }
+.span-link {
+  color: #404BBF;
+}
 .modal-button {
   width: 169px;
   height: 56px;
