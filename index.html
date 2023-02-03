@@ -454,7 +454,7 @@
         </h2>
         <form>
           <div class="modal-field">
-            <label class="input-text" for="name">Name</label>
+            <label class="input-text-name" for="name">Name</label>
             <div class="input-wrap">
               <input
                 type="text"
@@ -492,7 +492,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-textarea">
             <label class="input-text" for="comment">Comment</label>
             <textarea
               class="modal-textarea"
@@ -502,6 +502,24 @@
               rows=""
               placeholder="Text input"
             ></textarea>
+          </div>
+          <div class="modal-check">
+            <input
+              type="checkbox"
+              class="input-check visually-hidden"
+              name="policy"
+              id="policy"
+              value="true"
+            />
+            <label for="policy" class="check-text">
+              <span>
+                <svg class="check-icon" width="10px" height="8px">
+                  <use href="./images/icons.svg#check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
           </div>
           <button class="modal-button btn" type="submit">Send</button>
         </form>
